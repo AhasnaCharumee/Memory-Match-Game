@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🧠 Memory Match Game</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <h1>🧠 Memory Match</h1>
+  <button id="startBtn">▶️ Start Game</button>
+
+  <div id="info" style="display:none;">
+    <p id="level">Level: 1</p>
+    <p id="moves">Moves: 0</p>
+    <p id="timer">Time Left: 30s</p>
+  </div>
+
+  <div id="board" class="board"></div>
+
+  <audio id="matchSound" src="/assets/audio/success-1-6297.mp3"></audio>
+  <audio id="failSound" src="/assets/audio/sweet-game-over-sound-effect-230470.mp3"></audio>
+  <audio id="winSound" src="/assets/audio/happy-logo-167474.mp3"></audio>
+  <audio id="loseSound" src="/assets/audio/violin-lose-5-185126.mp3"></audio>
+  <audio id="startSound" src="/assets/audio/glad-piano-logo-13394.mp3"></audio> 
+
+  <script src="index.js"></script>
+</body>
+</html>
