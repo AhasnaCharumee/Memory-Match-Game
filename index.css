@@ -1,7 +1,8 @@
 body {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   text-align: center;
-  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  /* background: linear-gradient(to right, #ff9a9e, #fad0c4); */
+  background-image: url(/assets/images/image.png);
   color: #5a189a;
   margin: 0;
   padding: 20px;
@@ -10,8 +11,9 @@ body {
 h1 {
   font-size: 3em;
   margin-bottom: 10px;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
+
 
 #info {
   display: flex;
@@ -27,8 +29,8 @@ h1 {
 #startBtn {
   padding: 15px 30px;
   font-size: 20px;
-  background-color: #ffb703;
-  color: #5a189a;
+  background-color: #b51ad4;
+  color: #ffffff;
   border: none;
   border-radius: 15px;
   cursor: pointer;
@@ -66,7 +68,7 @@ h1 {
 }
 
 .card.flipped {
-  background-color: #ffb4a2;
+  background-color: #ff5934;
   transform: rotateY(180deg);
   color: #5a189a;
 }
